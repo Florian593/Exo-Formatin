@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
+body{
+  background-color: rgb(208, 208, 208);
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+div{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  margin-top: 6%;
   color: white;
+  margin-left: 17%;
+  position: absolute;
+  font-size: 2.5em;
+} 
+figcaption{
+  text-align: center;
+  font-size: 1.5em;
+  height: 50px;
+  color: white;
+  padding-top:15px;
+  border: 2px white solid;
 }
 
-.App-link {
-  color: #61dafb;
+figure{
+  align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img{
+  min-width: 640px;
+  max-height: 390px;
+  display: block;
+  box-shadow:2px 2px 50px -15px  black;
+  border: 2px solid white;
+  margin-top: 29%;
+  transition: ease-in-out 0.8s;
 }
+
+button{
+  border-radius: 50%;
+  background-color: rgb(188, 188, 188);
+  width: 50px;
+height: 50px;
+border:2px solid white;
+margin-top: 22%;
+font-size: 1.5em;
+color: white;
+}
+
+.ButtonRight{
+  color: black;
+  
+}
+
